@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/search_engine_3.dir/src/main.cpp.obj"
-  "CMakeFiles/search_engine_3.dir/src/main.cpp.obj.d"
+  "CMakeFiles/search_engine_3.dir/main.cpp.obj"
+  "CMakeFiles/search_engine_3.dir/main.cpp.obj.d"
   "libsearch_engine_3.dll.a"
   "search_engine_3.exe"
   "search_engine_3.exe.manifest"

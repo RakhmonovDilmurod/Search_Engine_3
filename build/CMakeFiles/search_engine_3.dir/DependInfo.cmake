@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/src/main.cpp" "CMakeFiles/search_engine_3.dir/src/main.cpp.obj" "gcc" "CMakeFiles/search_engine_3.dir/src/main.cpp.obj.d"
+  "C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/main.cpp" "CMakeFiles/search_engine_3.dir/main.cpp.obj" "gcc" "CMakeFiles/search_engine_3.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

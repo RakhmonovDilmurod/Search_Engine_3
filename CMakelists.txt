@@ -16,19 +16,25 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(JSON_BuildTests OFF CACHE INTERNAL "")
 set(gtest_disable_pthreads on)
-set(FETCHCONTENT_SOURCE_DIR_SUFFIX <some_suffix>)
-
+add_subdirectory(nlohmann_json)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
-add_subdirectory(src)
+add_executable(search_engine_3 
+               main.cpp 
+               README.md 
+               config/answers.json 
+               config/config.json 
+               config/requests.json)
+
+target_include_directories(search_engine_3 PUBLIC config)
 include(GNUInstallDirs)
 install(TARGETS search_engine_3
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
-
+target_link_libraries(search_engine_3 PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(search_engine_3 PRIVATE gtest_main)
 gtest_discover_tests(search_engine_3)
 enable_testing()
-cmake_policy(SET CMP0135 NEW)
 
 
 

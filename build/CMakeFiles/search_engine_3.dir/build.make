@@ -68,29 +68,29 @@ include CMakeFiles/search_engine_3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/search_engine_3.dir/flags.make
 
-CMakeFiles/search_engine_3.dir/src/main.cpp.obj: CMakeFiles/search_engine_3.dir/flags.make
-CMakeFiles/search_engine_3.dir/src/main.cpp.obj: CMakeFiles/search_engine_3.dir/includes_CXX.rsp
-CMakeFiles/search_engine_3.dir/src/main.cpp.obj: C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/src/main.cpp
-CMakeFiles/search_engine_3.dir/src/main.cpp.obj: CMakeFiles/search_engine_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\HP\OneDrive\Documents\GitHub\Search_Engine_3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/search_engine_3.dir/src/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/search_engine_3.dir/src/main.cpp.obj -MF CMakeFiles\search_engine_3.dir\src\main.cpp.obj.d -o CMakeFiles\search_engine_3.dir\src\main.cpp.obj -c C:\Users\HP\OneDrive\Documents\GitHub\Search_Engine_3\src\main.cpp
+CMakeFiles/search_engine_3.dir/main.cpp.obj: CMakeFiles/search_engine_3.dir/flags.make
+CMakeFiles/search_engine_3.dir/main.cpp.obj: CMakeFiles/search_engine_3.dir/includes_CXX.rsp
+CMakeFiles/search_engine_3.dir/main.cpp.obj: C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/main.cpp
+CMakeFiles/search_engine_3.dir/main.cpp.obj: CMakeFiles/search_engine_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\HP\OneDrive\Documents\GitHub\Search_Engine_3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/search_engine_3.dir/main.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/search_engine_3.dir/main.cpp.obj -MF CMakeFiles\search_engine_3.dir\main.cpp.obj.d -o CMakeFiles\search_engine_3.dir\main.cpp.obj -c C:\Users\HP\OneDrive\Documents\GitHub\Search_Engine_3\main.cpp
 
-CMakeFiles/search_engine_3.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/search_engine_3.dir/src/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HP\OneDrive\Documents\GitHub\Search_Engine_3\src\main.cpp > CMakeFiles\search_engine_3.dir\src\main.cpp.i
+CMakeFiles/search_engine_3.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/search_engine_3.dir/main.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HP\OneDrive\Documents\GitHub\Search_Engine_3\main.cpp > CMakeFiles\search_engine_3.dir\main.cpp.i
 
-CMakeFiles/search_engine_3.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_engine_3.dir/src/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HP\OneDrive\Documents\GitHub\Search_Engine_3\src\main.cpp -o CMakeFiles\search_engine_3.dir\src\main.cpp.s
+CMakeFiles/search_engine_3.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_engine_3.dir/main.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HP\OneDrive\Documents\GitHub\Search_Engine_3\main.cpp -o CMakeFiles\search_engine_3.dir\main.cpp.s
 
 # Object files for target search_engine_3
 search_engine_3_OBJECTS = \
-"CMakeFiles/search_engine_3.dir/src/main.cpp.obj"
+"CMakeFiles/search_engine_3.dir/main.cpp.obj"
 
 # External object files for target search_engine_3
 search_engine_3_EXTERNAL_OBJECTS =
 
-search_engine_3.exe: CMakeFiles/search_engine_3.dir/src/main.cpp.obj
+search_engine_3.exe: CMakeFiles/search_engine_3.dir/main.cpp.obj
 search_engine_3.exe: CMakeFiles/search_engine_3.dir/build.make
 search_engine_3.exe: lib/libgtest_maind.a
 search_engine_3.exe: lib/libgtestd.a

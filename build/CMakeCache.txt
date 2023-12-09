@@ -420,22 +420,22 @@ gtest_hide_internal_symbols:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
-nlohmann_json_BINARY_DIR:STATIC=C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/build/src/nlohmann_json
+nlohmann_json_BINARY_DIR:STATIC=C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/build/nlohmann_json
 
 //Value Computed by CMake
 nlohmann_json_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-nlohmann_json_SOURCE_DIR:STATIC=C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/src/nlohmann_json
+nlohmann_json_SOURCE_DIR:STATIC=C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/nlohmann_json
 
 //Value Computed by CMake
-search_engine_3_BINARY_DIR:STATIC=C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/build/src
+search_engine_3_BINARY_DIR:STATIC=C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/build
 
 //Value Computed by CMake
-search_engine_3_IS_TOP_LEVEL:STATIC=OFF
+search_engine_3_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-search_engine_3_SOURCE_DIR:STATIC=C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/src
+search_engine_3_SOURCE_DIR:STATIC=C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3
 
 
 ########################
@@ -574,7 +574,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

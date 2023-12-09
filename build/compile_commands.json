@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/search_engine_3.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\search_engine_3.dir\\src\\main.cpp.obj -c C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Search_Engine_3\\src\\main.cpp",
-  "file": "C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/src/main.cpp"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/search_engine_3.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\search_engine_3.dir\\main.cpp.obj -c C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Search_Engine_3\\main.cpp",
+  "file": "C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/main.cpp"
 },
 {
   "directory": "C:/Users/HP/OneDrive/Documents/GitHub/Search_Engine_3/build/_deps/googletest-build/googlemock",
