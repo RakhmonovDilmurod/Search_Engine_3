@@ -1,9 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
-
 project(search_engine_3 LANGUAGES CXX)
 
 include(FetchContent)
-
 FetchContent_Declare(
 googletest
 URL
@@ -16,7 +14,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(JSON_BuildTests OFF CACHE INTERNAL "")
 set(gtest_disable_pthreads on)
-include_directories(${CMAKE_SOURCE_DIR}/include)
+
 add_subdirectory(nlohmann_json)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 add_executable(search_engine_3 
@@ -27,12 +25,13 @@ add_executable(search_engine_3
                config/requests.json)
 
 target_include_directories(search_engine_3 PUBLIC config)
+target_include_directories(search_engine_3 PRIVATE ${nlohmann_json_INCLUDE_DIR})
 include(GNUInstallDirs)
 install(TARGETS search_engine_3
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
-target_link_libraries(search_engine_3 PUBLIC nlohmann_json::nlohmann_json)
+target_link_libraries(search_engine_3 PRIVATE nlohmann_json::nlohmann_json)
 target_link_libraries(search_engine_3 PRIVATE gtest_main)
 gtest_discover_tests(search_engine_3)
 enable_testing()

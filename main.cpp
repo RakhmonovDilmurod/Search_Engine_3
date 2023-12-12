@@ -10,6 +10,7 @@
 #include <sstream>
 #include <unordered_map>
 #include <unordered_set>
+#include<filesystem>
 
 using json = nlohmann::json;
 
@@ -38,13 +39,14 @@ public:
         return message.c_str();
     }
 };
+std::string path = fs::current_path().string();
 
 class ConverterJSON {
 private:
 
-    const std::string configJsonPath   = "..\\config\\config.json";
-    const std::string requestsJsonPath = "..\\config\\requests.json";
-    const std::string answersJsonPath  = "..\\config\\answers.json";
+    const std::string configJsonPath   = path + "\\config\\config.json";
+    const std::string requestsJsonPath = path + "\\config\\requests.json";
+    const std::string answersJsonPath  = path + "\\config\\answers.json";
     json answersJsonFile;
     json requestsJsonFile;
 
