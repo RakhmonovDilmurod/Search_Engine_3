@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "25"
+			"value" : "26"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -167,10 +167,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/mingw64/bin/g++.exe"
 		},
 		{
@@ -311,10 +311,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/mingw64/bin/gcc.exe"
 		},
 		{
@@ -1359,7 +1359,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.25"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1919,7 +1919,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Python;3;9;13;64;;cp39-win_amd64;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib\\site-packages;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib\\site-packages"
+			"value" : "Python;3;9;13;64;;cp39-win_amd64;;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib\\site-packages;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python39_64\\Lib\\site-packages"
 		},
 		{
 			"name" : "_Python_INTERPRETER_SIGNATURE",
@@ -1932,18 +1932,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "cc537b96ee0a2a21b0ae2f6c545afc50"
-		},
-		{
-			"name" : "_Python_Interpreter_REASON_FAILURE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Interpreter reason failure"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
 		},
 		{
 			"name" : "_Python_NumPy_REASON_FAILURE",
