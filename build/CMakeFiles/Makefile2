@@ -148,8 +148,8 @@ nlohmann_json/clean:
 # Target rules for target CMakeFiles/search_engine_3.dir
 
 # All Build rule for target.
-CMakeFiles/search_engine_3.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/search_engine_3.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/search_engine_3.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\search_engine_3.dir\build.make CMakeFiles/search_engine_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\search_engine_3.dir\build.make CMakeFiles/search_engine_3.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\HP\OneDrive\Documents\GitHub\test_42\Search_Engine_3\build\CMakeFiles --progress-num=9,10 "Built target search_engine_3"
